@@ -6,18 +6,16 @@ with open("README.md", "r", encoding="utf-8") as f:
 
 
 
-__version__ = "0.0.2"
+__version__ = "0.0.1"
 
-REPO_NAME = "NexusViewPro"
-AUTHOR_USER_NAME = "entbappy"
-AUTHOR_EMAIL = "entbappy73@gmail.com"
-SRC_REPO = "NexusViewPro"
+REPO_NAME = "NexusView"
+AUTHOR_USER_NAME = "Deep"
+SRC_REPO = "NexusView"
 
 setuptools.setup(
     name=SRC_REPO,
     version=__version__,
     author=AUTHOR_USER_NAME,
-    author_email=AUTHOR_EMAIL,
     description="A small python package",
     long_description=long_description,
     long_description_content="text/markdown",
